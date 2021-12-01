@@ -1,42 +1,36 @@
-/**
- * @file TemperatureSensorADC.c
- * @author Hemanth A (hemanth.ec17@bmsce.ac.in)
- * @brief A file where the ADC functions are implemented for temperature sensor
- * @version 0.1
- * @date 2021-04-29
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-#include <avr/io.h>
-#include "TemperatureSensorADC.h"
+# This is a basic workflow to help you get started with Actions
 
-/**
- * @brief A function to initialise the analog to digital converter
- * 
- */
-void Init_ADC(){
-    SET_REFERENCE_VOLTAGE;
-    ADC_ENABLE_PRESCALE;
+name: CI
 
-}
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-/**
- * @brief A funciton to receive temperature sensor inputs from analog pin and output it to a register ADC which has 2 8 bit registers ADCL and ADCH.
- * 
- * @param ch 
- * @return uint16_t 
- */
-uint16_t Read_ADC(uint8_t ch)
-{
-    ADMUX&=0xf8;
-    ch = ch&0b00000111;
-    ADMUX|=ch;
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-    ADCSRA|=(1<<ADSC);
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
 
-    while(ADC_INTERRUPT_NOT_OCCURED);
-    SET_ADC_INTERRUPT_FLAG;
-    return(ADC);
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
 
-}
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.

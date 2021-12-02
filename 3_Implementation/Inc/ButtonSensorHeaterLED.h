@@ -1,6 +1,6 @@
 /**
  * @file ButtonSensorHeaterLED.h
- * @author Hemanth A (hemanth.ec17@bmsce.ac.in)
+ * @author Mohammad Asif(md435610@gmail.com)
  * @brief A header file for button sensor and heater functions
  * @version 0.1
  * @date 2021-04-29

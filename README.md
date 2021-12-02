@@ -1,3 +1,4 @@
+[![cppcheck](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/CodeQuality.yml)
 [![Linux C/C++ CI](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Linux-c-cpp.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Linux-c-cpp.yml)
 [![GitInspector](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Gitinspector.yml)
 

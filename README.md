@@ -1,3 +1,4 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4a54791b1bf34c8e9286bbf1365a71d9)](https://www.codacy.com/gh/Asif78-00/M2_embedded_HeatControlSyst/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Asif78-00/M2_embedded_HeatControlSyst&amp;utm_campaign=Badge_Grade)
 [![cppcheck](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/CodeQuality.yml)
 [![Linux C/C++ CI](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Linux-c-cpp.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Linux-c-cpp.yml)
 [![GitInspector](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Gitinspector.yml)

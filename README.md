@@ -1,3 +1,4 @@
+[![CI](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/main.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/main.yml)
 [![C/C++ CI](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/c-cpp.yml)
 # M2_embedded_HeatControlSystem
 # M2_Embedded_HCS

@@ -1,3 +1,4 @@
+[![GitInspector](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Gitinspector.yml)
 [![Compile-Linux](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Compile.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/Compile.yml)
 [![CI](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/main.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/main.yml)
 [![C/C++ CI](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Asif78-00/M2_embedded_HeatControlSyst/actions/workflows/c-cpp.yml)
